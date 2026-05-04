@@ -1,6 +1,6 @@
 # Franka Emika Panda RL-based Path Planning (Simulation)
 
-This repository contains a modular Python implementation of a **robotic path planning and collision avoidance task** using **Reinforcement Learning (RL)**. The project leverages a high-fidelity robot simulation environment in PyBullet to train a **7-DOF Franka Emika Panda arm** to navigate to randomized goal positions while avoiding dynamic and static obstacles.
+This repository contains a modular Python implementation of a **robotic path planning and collision avoidance task** using **Reinforcement Learning (RL)**. The project leverages a high-fidelity robot simulation environment in **PyBullet** to train a **7-DOF Franka Emika Panda arm** to navigate to randomized goal positions while avoiding dynamic and static obstacles.
 
 This work was developed as a **Master's Thesis** at **Fraunhofer IGCV** in cooperation with **Hochschule Furtwangen University**, as part of the **AutASa** (Automated Waste Collection Vehicle) research project.
 
