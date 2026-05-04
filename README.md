@@ -39,6 +39,7 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install stable-baselines3 gymnasium pybullet numpy
+```
 
 ## 4. Repository Architecture
 The simulation is organized into a modular structure:
