@@ -1,5 +1,8 @@
 # Franka Emika Panda RL-based Path Planning (Simulation)
 
+![RL Path Planning Demo](media/demo1.gif)
+![RL Path Planning Demo](media/demo2.gif)
+
 This repository contains a modular Python implementation of a **robotic path planning and collision avoidance task** using **Reinforcement Learning (RL)**. The project leverages a high-fidelity robot simulation environment in **PyBullet** to train a **7-DOF Franka Emika Panda arm** to navigate to randomized goal positions while avoiding dynamic and static obstacles.
 
 This work was developed as a **Master's Thesis** at **Fraunhofer IGCV** in cooperation with **Hochschule Furtwangen University**, as part of the **AutASa** (Automated Waste Collection Vehicle) research project.
@@ -24,18 +27,12 @@ In this project:
 ```bash
 # Clone the repository
 git clone [https://github.com/](https://github.com/)SurajLakkur26/Panda-Robot-RL-Path-Planning.git
-cd panda-rl-path-planning
+cd Panda-Robot-RL-Path-Planning
 
 # Create and activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-
-# Install dependencies
-pip install stable-baselines3 gymnasium pybullet numpy
-
-# Create and activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+# Linux / macOS: source .venv/bin/activate      
+# Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install stable-baselines3 gymnasium pybullet numpy
