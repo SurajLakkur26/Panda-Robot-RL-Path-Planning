@@ -23,7 +23,7 @@ In this project:
 ## 3. Quickstart
 ```bash
 # Clone the repository
-git clone [https://github.com/](https://github.com/)<your-username>/panda-rl-path-planning.git
+git clone [https://github.com/](https://github.com/)SurajLakkur26/Panda-Robot-RL-Path-Planning.git
 cd panda-rl-path-planning
 
 # Create and activate a virtual environment
@@ -53,7 +53,7 @@ The agent was evaluated using three core metrics: **Safe Rate** (collision avoid
 
 | Simulation Scenario | Mean Safe Rate | Mean Accuracy |
 | :--- | :--- | :--- |
-| **Static Obstacles** | 100.00% | 87.00% |
+| **Randomized Obstacles** | 98.00% | 87.00% |
 | **Dynamic Obstacles** | 99.99% | ~80.39% |
 
 A key highlight of this simulation research is the **Enhanced Observation Space**, which utilizes **Line-of-Sight (LoS) flags**. This allows the robot to "see" if an obstacle is obstructing its direct path to the goal and adjust its trajectory proactively.
